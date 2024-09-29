@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Activate the virtual environment if necessary
-source venv/Scripts/activate  # Change this path if your venv is located somewhere else
+.\venv\Scripts\activate
 
 # Run Gunicorn server
 gunicorn app:app  # Replace 'app' with the name of your Flask app file without the .py extension
