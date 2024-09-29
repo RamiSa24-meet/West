@@ -118,6 +118,37 @@
             line-height: 1.5;
         }
 
+        /* Team Section */
+        .team {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .team-member .circle {
+            width: 100px;
+            height: 100px;
+            background-color: #FEAD1C; /* Yellow circle */
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+        }
+
+        .team-member .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .team-member .position {
+            font-size: 1rem;
+            color: #ddd; /* Lighter text for position */
+        }
+
         footer {
             margin-top: 2rem;
             font-size: 0.9rem;
@@ -167,6 +198,50 @@
     <div class="bottom-section">
         <h2>About Us</h2>
         <p>West is a revolutionary navigation app designed to help residents and visitors easily explore the Westbank. With advanced features and real-time data, we're committed to making travel simple and intuitive.</p>
+
+        <!-- Team Section -->
+        <div class="team">
+            <div class="team-member">
+                <div class="circle"></div>
+                <div class="name">Team Member 1</div>
+                <div class="position">Position 1</div>
+            </div>
+            <div class="team-member">
+                <div class="circle"></div>
+                <div class="name">Team Member 2</div>
+                <div class="position">Position 2</div>
+            </div>
+            <div class="team-member">
+                <div class="circle"></div>
+                <div class="name">Team Member 3</div>
+                <div class="position">Position 3</div>
+            </div>
+            <div class="team-member">
+                <div class="circle"></div>
+                <div class="name">Team Member 4</div>
+                <div class="position">Position 4</div>
+            </div>
+            <div class="team-member">
+                <div class="circle"></div>
+                <div class="name">Team Member 5</div>
+                <div class="position">Position 5</div>
+            </div>
+            <div class="team-member">
+                <div class="circle"></div>
+                <div class="name">Team Member 6</div>
+                <div class="position">Position 6</div>
+            </div>
+            <div class="team-member">
+                <div class="circle"></div>
+                <div class="name">Team Member 7</div>
+                <div class="position">Position 7</div>
+            </div>
+            <div class="team-member">
+                <div class="circle"></div>
+                <div class="name">Team Member 8</div>
+                <div class="position">Position 8</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
